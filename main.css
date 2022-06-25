@@ -22,45 +22,24 @@ li {
   list-style: none;
 }
 
-.btn1 {
+button {
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  background-color: #4caf50;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  outline: none;
-  border: none;
-  cursor: pointer;
-}
-.btn2 {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background-color: blue;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   outline: none;
   border: none;
   cursor: pointer;
 }
 
+.btn1 {
+  background-color: #4caf50;
+}
+.btn2 {
+  background-color: blue;
+}
+
 .btn3 {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
   background-color: #ff00ff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  outline: none;
-  border: none;
-  cursor: pointer;
 }
 
 main {
@@ -70,43 +49,41 @@ main {
   place-items: center;
   height: 100vh;
   place-content: center;
-  max-width: 588px;
-  width: 100%;
+  max-width: 400px;
   margin: auto;
 }
-
-.email input {
+input {
   padding: 1rem 2rem;
   border-radius: 40px;
   border: 1px solid #bbb;
   background: transparent;
   color: #444;
+  width: 100%;
 }
 
-.password input {
-  padding: 1rem 2rem;
-  border-radius: 40px;
-  border: 1px solid #bbb;
-  background: transparent;
-  color: #444;
-}
 .password {
   position: relative;
+  width: 100%;
 }
 
 .password i {
   position: absolute;
   transform: translate(-33px, 15px);
+  -webkit-transform: translate(-33px, 15px);
+  -moz-transform: translate(-33px, 15px);
+  -ms-transform: translate(-33px, 15px);
+  -o-transform: translate(-33px, 15px);
 }
 
-.submit input {
+.submit {
   padding: 1rem 2rem;
   border-radius: 40px;
-  border: 1px solid #bbb;
   background: green;
   color: white;
-  width: 100%;
+  outline: none;
+  border: none;
   cursor: pointer;
+  width: 100%;
 }
 
 footer {
