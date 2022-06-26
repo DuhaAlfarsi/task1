@@ -21,7 +21,7 @@
 
 body {
   font-family: sans-serif;
-  background: #fff;
+  background-color: #fff;
   color: #444;
   padding: 1rem;
   width: 100%;
@@ -38,13 +38,19 @@ li {
   list-style: none;
 }
 
-button {
+button.btn1,
+.btn2,
+.btn3 {
   height: 30px;
   width: 30px;
   border-radius: 50%;
   outline: none;
   border: none;
   cursor: pointer;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .btn1 {
@@ -91,13 +97,19 @@ input {
   -o-transform: translate(-33px, 15px);
 }
 
-.submit {
+button.submit {
   background-color: var(--submit-bg);
   color: white;
-  outline: none;
-  border: none;
   cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  height: 50px;
   width: 100%;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 footer {

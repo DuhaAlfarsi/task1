@@ -14,9 +14,9 @@ togglePassword.addEventListener("click", function (e) {
 
 //color mode change 
 
-let button1 = document.querySelector("btn1");
-let button3 = document.querySelector("btn3");
-let button2 = document.querySelector("btn2");
+let button1 = document.querySelector(".btn1");
+let button3 = document.querySelector(".btn3");
+let button2 = document.querySelector(".btn2");
 
 button1.addEventListener("click", function(){
   document.body.style.backgroundColor = "green";
