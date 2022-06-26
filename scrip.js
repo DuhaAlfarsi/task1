@@ -17,32 +17,35 @@ togglePassword.addEventListener("click", function (e) {
 let button1 = document.querySelector(".btn1");
 let button3 = document.querySelector(".btn3");
 let button2 = document.querySelector(".btn2");
+let submit = document.querySelector(".submit");
+let footer = document.querySelector(".footer");
+
 
 button1.addEventListener("click", function(){
-  document.body.style.backgroundColor = "green";
+  document.body.classList.add('green');
   document.body.classList.remove(
-    'bnt3',
-    'btn2'
+    'blue',
+    'pink'
   );
 
 })
 
 button2.addEventListener("click", function(){
-  document.body.style.backgroundColor = "blue";
+  document.body.classList.add('blue');
   document.body.classList.remove(
-    'bnt1',
-    'btn3'
+    'green',
+    'pink'
   );
-
+  
 })
 
 button3.addEventListener("click", function(){
-  document.body.style.backgroundColor = "pink";
+  document.body.classList.add('pink');
   document.body.classList.remove(
-    'bnt1',
-    'btn2'
+    'green',
+    'blue'
   );
-
+  
 
 })
 
