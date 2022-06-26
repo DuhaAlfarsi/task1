@@ -20,43 +20,32 @@ let button2 = document.querySelector("btn2");
 
 button1.addEventListener("click", function(){
   document.body.style.backgroundColor = "green";
-  button1.removeAttribute('class');
+  document.body.classList.remove(
+    'bnt3',
+    'btn2'
+  );
 
 })
 
 button2.addEventListener("click", function(){
   document.body.style.backgroundColor = "blue";
-  button2.removeAttribute('class');
+  document.body.classList.remove(
+    'bnt1',
+    'btn3'
+  );
 
 })
 
 button3.addEventListener("click", function(){
   document.body.style.backgroundColor = "pink";
-  button2.removeAttribute('class');
+  document.body.classList.remove(
+    'bnt1',
+    'btn2'
+  );
+
 
 })
 
 
 
 
-/* 
-circle1.addEventListener("click", ()=>{
-    document.body.classList.add('green')
-    return
-})
-
-  
-let circle2 = document.querySelector(".color2")
-circle1.addEventListener("click", ()=>{
-    document.body.classList.add('blue')
-    return
-})
-
-   let circle3 = document.querySelector(".color3")   
-   circle1.addEventListener("click", ()=>{
-     document.body.classList.add('pink')
-     return
-})
-
-
- */
