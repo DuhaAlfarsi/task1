@@ -17,8 +17,7 @@ togglePassword.addEventListener("click", function (e) {
 let button1 = document.querySelector(".btn1");
 let button3 = document.querySelector(".btn3");
 let button2 = document.querySelector(".btn2");
-let submit = document.querySelector(".submit");
-let footer = document.querySelector(".footer");
+
 
 
 button1.addEventListener("click", function(){
